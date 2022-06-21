@@ -1,0 +1,29 @@
+Variable
+
+Es un espacio de memoria donde podemos guardar información.
+Al crearla debemos darle un nombre para poder acceder a ella, ya sea para guardar algo o para requerir lo que guardamos.
+
+
+String
+
+Es un tipo de datos para almacenar texto (el cuál puede estar constituido por letras, numeros, símbolos)
+
+
+Función
+
+Es un fragmento de código, aislado del resto, el cual puede recibir inputs (argumentos), realizar alguna operación y retornar un output (con return).
+Una función puede ser llamda varias veces dentro del código.
+
+
+Declaracion if 
+
+Es una sentencia que ejecuta una porción de código si el paréntesis que le sucede retorna verdadero.
+
+
+Valores booleanos
+
+Es un tipo de datos que puede tomar sólo dos valores, verdadero o falso (true, false).
+
+
+
+
