@@ -1,0 +1,40 @@
+for
+
+    La sentencia for permite repetir un bloque de código mientras una condición sea verdadera.
+
+
+    Estructura: 
+
+        for (contador; condición; incremento del contador) { código que se repetirá}
+
+        En el primer parentesis normalmente:
+
+            1. Declaramos e inicializamos una variable que utilizaremos como contador.
+            2. Indicamos la condición que debe ser verdadera para que el bloque se ejecute.
+            3. Incrementamos el contador.
+
+
+    Ciclo:
+
+        1. Se inicializa el contador.
+        2. Se evalúa la condición.
+        3.A Si es falsa se sale del loop.
+        3.B Si es verdadera, se ejecuta el código,
+        4. Se incrementa el Contador y se vuelve al paso 2.
+
+
+
+
+Operadores lógicos.
+
+    A) Reciben dos expresiones booleanas, una a su derecha y la otra a su izquierda. Si no reciben expresiones booleanas, las transforman en booleanas.
+
+        &&: Retorna True si las dos expresiones que recibe son verdaderas. Si alguna es falsa retorna false.
+
+        ||: Retorna True si alguna de las dos expresiones es verdadera. Si las dos son falsas retorna false.
+        
+
+    B) Reciben una expresión booleana a su derecha. Si no es booleana, la tansforma en booleana.
+
+        !: Retorna el valor contrario de la expresión que recibe.
+
