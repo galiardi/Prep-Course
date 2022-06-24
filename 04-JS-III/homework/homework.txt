@@ -1,0 +1,6 @@
+Arrays
+
+Los arrays son un tipo de datos que nos permiten guardar varios datos, de igual o distinto tipo, y de forma ordenada en una misma variable. 
+De forma ordenada significa que a cada dato se le asigna un número entero desde 0 hacia arriba.
+Después puedo acceder al dato proporcionando el número.
+Los arrays se oueden recorrer utilizando bucles for.
