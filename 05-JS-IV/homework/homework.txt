@@ -1,0 +1,62 @@
+Objeto
+
+Un objeto es un tipo de dato que nos permite almacenar muchos datos distintos en una misma variable y de forma ordenada,
+porque cada dato (value) se almacena con una clave (key). ( Par key-value)
+
+ const cat = {
+    name: 'Misifú',
+ }
+
+Cuando que remos acceder al dato almacenado, escribimos el nombre del objeto seguido de la clave.
+
+cat.name        // 'Misifú'
+cat['name']     // 'Misifú'
+
+o bien 
+let key = 'name'
+cat[key]        // 'Misifú'
+
+La notación de corchete nos permite acceder a la propiedad mediante una variable.
+
+
+
+
+Métodos y propiedades.
+
+Cuando el dato almacenado es una fución lo llamamos método, en caso contrario lo llamamos propiedad.
+
+const cat = {
+    name: 'Misifú',                                 // propiedad
+    sayYourName: function() {                       // método
+        console.log(`My name is ${this.name}')
+    },
+}
+
+Invocación del método:
+cat.sayYourName();      // 'My name is Misifú'
+
+
+
+Bucle for (let k in object)
+
+Este bucle nos permite recorrer un objeto object.
+En cada iteración la variable k toma el valor de la key del par key-value.
+Así en cada iteración podemos:
+-Acceder a la key: k
+
+-Acceder al valor: object[k]
+
+La notacion de puntos nos permite acceder al value a traves del nombre del objeto seguido del nombre de la key:
+objeto.edad
+
+En la notación de corchetes debemos entregar dentro de los corchetes un string, o bien una variable que devuelva un string, con el nombre de la propiedad:
+objeto['edad']
+
+
+o bien:
+let k = 'edad';
+objeto[k]
+
+
+
+
