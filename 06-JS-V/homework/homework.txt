@@ -1,0 +1,19 @@
+prototype
+
+  Es una propiedad que tienen todas las funciones(Las funciones son objetos). Es una propiedad de tipo
+objeto.
+
+  Cuando una funcion es ocupada como function constructor, es decir, se usa para instanciar un objeto,
+las propiedades que están guardadas en prototype quedan accesibles para el nuevo objeto, pero siguen
+estando en prototype. Esto nos permite optimizar el uso de la memoria ya que los múltiples objetos 
+instanciados compartirán estas propiedades.
+  En el objeto instanciado estas propiedades son referencidas bajo la propiedad __proto__.
+
+__proto__ es una referencia a la propiedad prototype desde donde se instanció el objeto.
+
+
+_Constructors_
+
+  En una clase ES6 el constructor es un método que se ejecuta cuando un objeto es instanciado.
+  Nos permite recibir argumentos al momento de la instanciación para crear propiedades en la instancia.
+  Las propiedades creadas con el constructor pertenecerán sólo a la instancia.
