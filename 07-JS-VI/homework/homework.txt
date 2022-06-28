@@ -1,0 +1,7 @@
+Funciones callback
+
+Se llaman a las funciones que son pasadas como argumento a otra función.
+Estas funcciones pueden ser llamdas en cualquier momento dentro de la función.
+También pueden ser retornadas.
+Las callbacks tienen acceso a las variables que están dentro de la función que las llama,
+Además de las variables del global scope.
