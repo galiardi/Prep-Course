@@ -1,0 +1,52 @@
+body {
+  background: url("https://previews.123rf.com/images/kishivan/kishivan1910/kishivan191000026/131918163-mesa-de-madera-vac%C3%ADa-en-desenfoque-bokeh-dorado-claro-de-cafeter%C3%ADa-restaurante-en-fondo-oscuro-.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divClass {
+  color: beige;
+  text-align: center;
+}
+
+h1 {
+  color: firebrick;
+  background-color: rgba(17, 5, 5, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#spanId {
+  font-size: 18px;
+  margin-right: 50px;
+}
+
+a {
+  color: yellow;
+}
+
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: rgba(17, 5, 5, 0.7);
+  border: 10px solid rgba(228, 37, 37, 0.425);
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
